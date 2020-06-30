@@ -12,6 +12,7 @@ I use Stacking Ensemble method for the model in this project. For more info abou
 ## Setup and Requirements
 run `pip install -r requirements.txt` to install <br /> 
 run `python setup.py develop` to modularize files <br /> 
+<br /> 
 for this project requirements are as following:
 #### For model building
 * numpy>=1.18.1,<1.19.0
