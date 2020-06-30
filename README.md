@@ -29,5 +29,12 @@ for this project requirements are as following:
 
 
 ## Running and Testing 
-I use tox to automate training and testing. Simply run `tox`. If one wishes to see the output of the model, run train and predict separately
+#### for model
+I use tox to automate training and testing. Simply run `tox` in the directory where `tox.ini` file is located. 
+<br/>
+If one wishes to see the output of the model, run train and predict separately
+
+#### for Flask API
 For testing flask api, run `pytest test_controller.py`
+<br/>
+For running flask app `set FLASK_APP = run.py` then run `python run.py`
