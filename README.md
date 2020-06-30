@@ -29,7 +29,7 @@ for this project requirements are as following:
 
 
 ## Running and Testing 
-#### for model
+#### for Model
 I use tox to automate training and testing. Simply run `tox` in the directory where `tox.ini` file is located. 
 <br/>
 If one wishes to see the output of the model, run train and predict separately
