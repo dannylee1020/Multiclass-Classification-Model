@@ -9,9 +9,10 @@ The main goal of this project is to build a model, write production code and cre
 ## Model Overview
 I use Stacking Ensemble method for the model in this project. For more info about it read [this](https://machinelearningmastery.com/stacking-ensemble-machine-learning-with-python/) Also I only select top 10 features to make training faster and keep the model simple. In terms of improving the model accuray, I suggest trying rebalancing target variable, using more features, more robust preprocessing and tuning the model. 
 
-## Requirements
+## Setup and Requirements
+run `pip install -r requirements.txt` to install
+run `python setup.py develop` to modularize files
 for this project requirements are as following:
-
 #### For model building
 * numpy>=1.18.1,<1.19.0
 * pandas>=0.25.3,<0.26.0
@@ -27,5 +28,5 @@ setuptools >= 41.4.0,<42.0.0
 
 
 ## Running and Testing 
-I use tox to automate training and testing. Simply run `<tox>`. If one wishes to see the output of the model, run train and predict separately
-For testing flask api, run `<pytest test_controller.py>`
+I use tox to automate training and testing. Simply run `tox`. If one wishes to see the output of the model, run train and predict separately
+For testing flask api, run `pytest test_controller.py`
