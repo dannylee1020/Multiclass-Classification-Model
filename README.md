@@ -10,8 +10,8 @@ The main goal of this project is to build a model, write production code and cre
 I use Stacking Ensemble method for the model in this project. For more info about it read [this](https://machinelearningmastery.com/stacking-ensemble-machine-learning-with-python/) Also I only select top 10 features to make training faster and keep the model simple. In terms of improving the model accuray, I suggest trying rebalancing target variable, using more features, more robust preprocessing and tuning the model. 
 
 ## Setup and Requirements
-run `pip install -r requirements.txt` to install
-run `python setup.py develop` to modularize files
+run `pip install -r requirements.txt` to install <br /> 
+run `python setup.py develop` to modularize files <br /> 
 for this project requirements are as following:
 #### For model building
 * numpy>=1.18.1,<1.19.0
