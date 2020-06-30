@@ -1,4 +1,4 @@
-# MultiClass-Classification-Model
+# Multiclass-Classification-Model
 
 ## Motivation
 When we think about maching learning, often times people pay our attention to building ML models. That is, how to achieve higher accuracy, which algorithm to use and how to go about feature engineering etc. However, how are we going to actually use these models is often neglected. And yet, this is equally as important, if not more, as building model and is crucial part of building end to end ML pipeline. Only when a model is fully integrated with business systems, we can produce real values from the models
