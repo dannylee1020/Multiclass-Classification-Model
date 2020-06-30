@@ -25,7 +25,7 @@ for this project requirements are as following:
 * pytest>=5.3.2,<6.0.0
 
 #### for packaging
-setuptools >= 41.4.0,<42.0.0
+* setuptools >= 41.4.0,<42.0.0
 
 
 ## Running and Testing 
