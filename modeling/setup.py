@@ -2,6 +2,7 @@
 '''
 Need setup.py for python to find modules and use it to code
 pip install -e to install setups and modularize other .py files
+python setup.py develop
 
 '''
 

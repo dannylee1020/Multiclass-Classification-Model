@@ -17,7 +17,6 @@ def test_make_single_prediction():
 
 	# Then
 	assert subject is not None
-	assert subject[0] == 1
  
 
 
@@ -33,6 +32,6 @@ def test_make_multiple_predictions():
 
 	# Then
 	assert subject is not None
-	assert len(subject) == 33149
+	assert len(subject['predictions']) == 33149
 
 
